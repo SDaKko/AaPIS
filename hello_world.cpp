@@ -1,11 +1,11 @@
 #include <iostream>
-using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "rus");
-	string name;
-	cout << "¬ведите ваше им€: ";
-	cin >> name;
-	cout << "Hello world from " << name << endl;
-	return 0;
+    std::string name;
+    std::cout << "Input your name: ";
+    //input username
+    std::cin >> name;
+    //print "hello, world"
+    std::cout << "Hello, World from " << name << std::endl;
+    return 0;
 }
